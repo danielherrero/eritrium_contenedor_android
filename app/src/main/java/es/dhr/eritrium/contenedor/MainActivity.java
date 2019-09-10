@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("http://demo.strumbox.com.mx");
+        myWebView.loadUrl("http://app.dascontigo.com.mx/");
         //myWebView.loadUrl("http://www.elmundo.es");
     }
     @Override
