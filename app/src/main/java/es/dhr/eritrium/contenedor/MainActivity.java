@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         Fabric.with(this, new Crashlytics());
         getSupportActionBar().hide();
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("http://app.dascontigo.com.mx/");
+        myWebView.loadUrl("http://dasapp.ee-pp.com/");
         //myWebView.loadUrl("http://www.elmundo.es");
     }
     @Override
